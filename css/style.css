@@ -52,7 +52,7 @@
     border-radius:9px;
 }
 .background{
-    background:rgba(0, 0, 0, 0.7) url('../img/img.jpg');
+    background:rgba(38, 38, 38, 0.7) url('../img/foss2.jpg');
     background-size:cover;
     background-blend-mode:darken;
 }
@@ -119,12 +119,15 @@
     color:black;
     border:2px solid grey;
 }
-/*#foss{
-    background-color:beige;
+#foss{
+    background-color:#2bb3d1;
 }
 #history{
-    background-color:beige;
-}*/
+    background-color:#2bb3d1;
+}
+#gnu_linux{
+    background-color:#2bb3d1;
+}
 .section{
     padding:10px; /*Change*/
     height:400px; /*Change*/
@@ -154,7 +157,7 @@
     margin-top:19px;
 }
 .contact{
-    background-color:rgb(224, 221, 217);
+    background-color:white;
     height:533px;
 }
 .text-center{
