@@ -9,9 +9,9 @@
     align-items:center;
 }
 .logo img{
-    width:30%;
-    border:3px solid white;
-    border-radius:50px;
+    width:40%;
+    border:2px solid white;
+    border-radius:30px;
     margin:5px;
 }
 .navbar{
@@ -86,11 +86,18 @@
     margin:auto;
 }
 .text-big{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     font-size:40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text-small{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     font-size:18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .btn{
     padding:8px 20px;
