@@ -172,19 +172,19 @@
 .text-center{
     text-align:center;
     padding-top:10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size:35px;
 }
 .form{
-    max-width:500px;
+    max-width:350px;
     margin:25px auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .form input{
     margin:14px 0;
-    padding:5px 13px;
+    padding:13px;
     width:100%;
-    font-size:19px;
+    font-size:16px;
     border:2px solid grey;
     border-radius:6px;
 }
