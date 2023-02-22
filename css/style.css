@@ -87,6 +87,7 @@
 }
 .text-big{
     font-size:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text-small{
     font-size:18px;
@@ -140,13 +141,13 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .thumbnail img{
-    width:350px;
+    width:370px;
     border:2px solid black;
     border-radius:10px;
     margin-top:19px;
 }
 .contact{
-    background-color: rgb(224, 221, 217);
+    background-color:rgb(224, 221, 217);
     height:533px;
 }
 .text-center{
