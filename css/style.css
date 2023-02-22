@@ -9,9 +9,10 @@
     align-items:center;
 }
 .logo img{
-    width:33%;
+    width:30%;
     border:3px solid white;
     border-radius:50px;
+    margin:5px;
 }
 .navbar{
     display:flex;
@@ -22,7 +23,7 @@
     cursor:pointer;
 }
 .nav-list{
-    width:50%;
+    width:70%;
     display:flex;
     align-items:center;
 }
@@ -33,18 +34,20 @@
 .nav-list li a{
     text-decoration:none;
     color:white;
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav-list li a:hover{
-    color:grey;
+    color:rgb(197, 194, 194);
 }
 .rightNav{
-    width:50%;
+    width:30%;
     text-align:right;
     padding:0 23px;
 }
 #search{
     padding:5px;
-    font-size:17px;
+    font-size:15px;
     border:2 px solid grey;
     border-radius:9px;
 }
@@ -61,7 +64,7 @@
      justify-content:center;
      align-items:center;
      color:white;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      max-width:50% ;
      margin:auto;
      height:80%;
@@ -96,13 +99,21 @@
     background:none;
     color:white;
     cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
 }
 .btn-sm{
     padding:6px 10px;
     vertical-align:middle;
+    font-size:15px;
+}
+.btn-dark{
+    color:black;
+    border:2px solid grey;
 }
 .section{
-    height:500px;
+    padding:10px; /*Change*/
+    height:400px; /*Change*/
     display:flex;
     align-items:center;
     justify-content:center;
@@ -120,11 +131,41 @@
     padding:16px 0;
 }
 .sectionSubTag{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .thumbnail img{
     width:250px;
     border:2px solid black;
     border-radius:10px;
     margin-top:19px;
+}
+.contact{
+    background-color: rgb(224, 221, 217);
+    height:533px;
+}
+.text-center{
+    text-align:center;
+    padding-top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;
+}
+.form{
+    max-width:500px;
+    margin:25px auto;
+}
+.form input{
+    margin:14px 0;
+    padding:5px 13px;
+    width:100%;
+    font-size:19px;
+    border:2px solid grey;
+    border-radius:6px;
+}
+.text-footer{
+    text-align:center;
+    padding:30px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:10px;
+    justify-content:center;
+    color:white;
 }
