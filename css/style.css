@@ -121,9 +121,14 @@
 }
 #foss{
     background-color:#2bb3d1;
+    padding:25px;
+}
+#benefits{
+    padding:55px 0;
 }
 #history{
     background-color:#2bb3d1;
+    padding:265px 0;
 }
 #gnu_linux{
     background-color:#2bb3d1;
@@ -155,6 +160,7 @@
     border:2px solid black;
     border-radius:10px;
     margin-top:19px;
+    margin-right:30px;
 }
 .contact{
     background-color:white;
@@ -169,6 +175,7 @@
 .form{
     max-width:500px;
     margin:25px auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .form input{
     margin:14px 0;
